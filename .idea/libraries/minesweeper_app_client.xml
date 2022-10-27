@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="minesweeper_app_client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/minesweeper_app_client/dist/minesweeper_app_client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

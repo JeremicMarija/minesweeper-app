@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/minesweeper-app.iml" filepath="$PROJECT_DIR$/.idea/minesweeper-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minesweeper_app_client/minesweeper_app_client.iml" filepath="$PROJECT_DIR$/minesweeper_app_client/minesweeper_app_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minesweeper_app_common/minesweeper_app_common.iml" filepath="$PROJECT_DIR$/minesweeper_app_common/minesweeper_app_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minesweeper_app_server/minesweeper_app_server.iml" filepath="$PROJECT_DIR$/minesweeper_app_server/minesweeper_app_server.iml" />
+    </modules>
+  </component>
+</project>

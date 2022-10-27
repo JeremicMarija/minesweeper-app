@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="loginPane" prefHeight="326.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+   <children>
+      <Label fx:id="windowLabel" alignment="CENTER" layoutX="108.0" prefHeight="51.0" prefWidth="183.0" text="Login" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="108.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" focusTraversable="false" layoutX="80.0" layoutY="66.0" prefHeight="33.0" prefWidth="226.0" promptText="Username" style="-fx-border-color: #BEBFC1; -fx-background-radius: 5px; -fx-border-radius: 5px;" text="marija" />
+      <PasswordField fx:id="passwordField" focusTraversable="false" layoutX="80.0" layoutY="113.0" prefHeight="33.0" prefWidth="226.0" promptText="Password" style="-fx-border-color: #BEBFC1; -fx-background-radius: 5px; -fx-border-radius: 5px;" text="marija123" />
+      <Button fx:id="loginBtn" layoutX="139.0" layoutY="215.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="111.0" style="-fx-background-color: gray; -fx-background-radius: 5px; -fx-text-fill: #ffffff;" text="LOGIN">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="dontHaveAccText" alignment="CENTER" layoutX="64.0" layoutY="260.0" prefHeight="33.0" prefWidth="261.0" text="Don't have an account? Register      " textAlignment="CENTER" />
+      <Button fx:id="showRegBtn" layoutX="274.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlePressedRegBtn" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="here" underline="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="emailField" focusTraversable="false" layoutX="81.0" layoutY="159.0" prefHeight="33.0" prefWidth="226.0" promptText="Email address" style="-fx-border-color: #BEBFC1; -fx-background-radius: 5px; -fx-border-radius: 5px;" visible="false" />
+      <Button fx:id="regBtn" layoutX="139.0" layoutY="215.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="111.0" style="-fx-background-color: gray; -fx-background-radius: 5px; -fx-text-fill: #ffffff;" text="REGISTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="haveAccText" alignment="CENTER" layoutX="64.0" layoutY="260.0" prefHeight="33.0" prefWidth="261.0" text="You have an account? Login      " textAlignment="CENTER" visible="false" />
+      <Button fx:id="showLoginBtn" layoutX="260.0" layoutY="260.0" mnemonicParsing="false" onAction="#handlePressedLoginBtn" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: transparent;" text="here" underline="true" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

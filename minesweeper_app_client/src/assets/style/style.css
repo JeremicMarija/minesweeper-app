@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Marija Jeremic
+*/
+
+
+.button { 
+    -fx-focus-color: transparent;
+    -fx-font-weight: bold;
+}
+
+.bg-dark {
+    -fx-background-color: #bfbfbf;
+    -fx-text-fill: #000000;
+}
+
+.bg-bomb {
+    -fx-background-color: #FF9900;
+    -fx-text-fill: #ffffff;
+}
+
+.bg-white {
+    -fx-background-color: #b3ffb3;
+    -fx-border-style: solid;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: #004d00;
+    -fx-text-fill: #000000;
+}

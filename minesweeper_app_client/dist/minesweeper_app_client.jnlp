@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="minesweeper_app_client.jnlp">
+  <information>
+    <title>minesweeper_app_client</title>
+    <vendor>Pioniri</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\minesweeper_app_common.jar" size="15989" download="eager" />
+    <jar href="lib\minesweeper_app_server.jar" size="28597" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="minesweeper_app_client.jar" size="37377" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="minesweeper_app_client" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="login.Client"  name="minesweeper_app_client" />
+  <update check="always"/>
+</jnlp>
